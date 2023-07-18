@@ -25,5 +25,10 @@
   },
   "extra": {
     "installer-name": "menu"
-  }
+  },
+    "autoload": {
+        "psr-4": {
+            "gorriecoe\\Menu\\": "src/"
+        }
+    }
 }
