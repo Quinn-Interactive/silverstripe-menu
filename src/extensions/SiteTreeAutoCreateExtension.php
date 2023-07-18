@@ -11,8 +11,7 @@ use SilverStripe\ORM\DataExtension;
  * Provides the option to automatically create a menu link
  * after creating a page in the sitetree
  *
- * @package silverstripe
- * @subpackage silverstripe-menu
+ * @property \gorriecoe\Menu\Extensions\SiteTreeAutoCreateExtension&\Page $owner
  */
 class SiteTreeAutoCreateExtension extends DataExtension
 {

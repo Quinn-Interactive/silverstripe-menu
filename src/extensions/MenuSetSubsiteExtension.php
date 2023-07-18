@@ -10,8 +10,9 @@ use SilverStripe\ORM\DataExtension;
 /**
  * Adds subsite support if installed
  *
- * @package silverstripe
- * @subpackage silverstripe-menu
+ * @property \gorriecoe\Menu\Extensions\MenuSetSubsiteExtension $owner
+ * @property int $SubsiteID
+ * @method \SilverStripe\Subsites\Model\Subsite Subsite()
  */
 class MenuSetSubsiteExtension extends DataExtension
 {

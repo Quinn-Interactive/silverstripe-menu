@@ -16,8 +16,6 @@ use SilverStripe\Security\Member;
 /**
  * CMS Admin area to maintain menus
  *
- * @package    silverstripe
- * @subpackage silverstripe-menu
  */
 class MenuSetAdmin extends ModelAdmin
 {

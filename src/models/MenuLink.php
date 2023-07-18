@@ -15,12 +15,11 @@ use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 /**
  * MenuLink
  *
+ * @property int $Sort
  * @property int $MenuSetID
  * @property int $ParentID
- * @property int $Sort
- * @method MenuLink Parent()
- * @method HasManyList|MenuLink[] Children()
- * @package silverstripe-menu
+ * @method \gorriecoe\Menu\Models\MenuLink Parent()
+ * @method \SilverStripe\ORM\HasManyList|\gorriecoe\Menu\Models\MenuLink[] Children()
  */
 class MenuLink extends Link
 {
